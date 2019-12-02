@@ -66,7 +66,9 @@ body{
 
 header{
 	height: 100px;
-	width: 1600px;
+	width: 1115px;
+	margin: 0 auto;
+
 	background: #f6f9f9;
 }
 
@@ -77,16 +79,26 @@ header .logo span{
 	position: relative;
 	top: -5px;
 	left: 15px;
+	
 }
 
 header .logo{
 	padding-top: 30px;
+	margin: 0 auto;
+	padding-left: 80px;
 }
  
 .container2{
 	background-image: url('../images/top_background.png');
-	height: 800px;
-	background-size: 100%;
+	height: calc(100vh - 100px);
+	height: 558px;
+	max-height: 800px ;
+	min-height: 420px;
+	width: 1115px;
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: center;
+	margin: 0 auto;
 }
 
 .container2 h1{
@@ -94,7 +106,10 @@ header .logo{
 	color: white;
 	font-weight: bold;
 	text-align: center;
-	padding-top: 220px;
+	padding-top: 16vh;
+	max-width: 100%;
+	margin: 0 auto;
+	font-size: 90px;
 }
 
 .container2 i{
@@ -102,20 +117,25 @@ header .logo{
 	height: 2px;
 	background-color: #15a4fa;
 	margin: 0 auto;
-	display: block;
+	display: inline-block;
 	margin-top: 35px;
+	margin-left: 255px;
 }
 
 .container2 p{
 	font-size: 20px;
 	color: white;
-	text-align: center;
 	padding-top: 40px;
+	display: inline-block;
+	text-align: center;
+	padding-left: 285px;
+	margin: 0 auto;
 }
 
 .container2 .link_top{
 	text-align: center;
 	padding-top: 65px;
+	
 }
 
 .container2 .link_top a {
@@ -137,28 +157,31 @@ header .logo{
 .container2 .chevron svg{
 	height: 12px;
 	width: 22px;
-	color: #fff;	
+	color: rgb(255, 255, 255);
+
 }
 
 .container2 .chevron{
 	margin-left: 560px;
-	margin-top: 180px;
+	margin-top: 80px;
 }
 
 .container3{
 	background: #f6f9f9;
-	width: 1600px;
+	width: 1115px;
 	height: 345px;
 	text-align: center;
+	margin: 0 auto;
+	margin-top: 0px;
 }
 
 .text01{
-	width: 1600px;
+	width: 1115px;
 	color: #2d3950;
 	position: absolute;
 	margin-top: 80px;
 	width: 900px;
-	margin-left: 330px;
+	margin-left: 100px;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -169,7 +192,7 @@ header .logo{
 }
 
 .text02{
-	width: 1600px;
+	width: 1115px;
 	color: #999999;
 	position: absolute;
 	margin-top: 155px;
@@ -186,7 +209,8 @@ header .logo{
 
 .container4 .item{
 	width: 30%;
-	border: 1px solid #fff;
+	border: 1px solid rgb(255, 255, 255);
+	min-width: 300px;
 	height: 300px;
 	display: inline-block;
 	margin: 1.45%;
@@ -292,10 +316,11 @@ header .logo{
 
 .container5{
 	background: #f6f9f9;
-	width: 1600px;
+	width: 1115px;
 	height: 900px;
 	text-align: center;
-	display: inline-block;
+	
+	margin: 0 auto;
 }
 
 .container5 h1{
@@ -342,16 +367,21 @@ header .logo{
 
 .container6{
 	background-image: url('../images/bottom_background.png');
-	width: 1600px;
+	width: 1115px;
+	display: block;
 	height: 700px;
-
+	margin: 0 auto;
+	background-position: center;
+	
+	
 }
 .container6 i{
 	background-color: #2d3950cc;
-	width: 1600px;
+	width: 1115px;
 	height: 700px;
 	display: inline-block;
 	margin-left: -225px;
+	margin: 0 auto;
 }
 .container6 .text4{
 	font-size: 30px;
@@ -451,13 +481,14 @@ header .logo{
 }
 
 .footer .block{
-	width: 1600px;
+	width: 1115px;
 	height: 90px;
-	background-color: #f9f9f9;	
+	background-color: #f9f9f9;
+	margin: 0 auto;	
 }
 .footer .block p{
 	color: #999999;
-	padding-left: 225px;
+	padding-left: 110px;
 	padding-top: 40px;
 }
 
@@ -466,7 +497,7 @@ header .logo{
 	width: 40px;
 	height: 40px;
 	background: rgb(72, 185, 255);
-	margin-left: 1200px;
+	margin-left: 800px;
 	margin-top: -20px;
 }
 
@@ -483,7 +514,7 @@ header .logo{
 	width: 40px;
 	height: 40px;
 	background: rgb(72, 185, 255);
-	margin-left: 1245px;
+	margin-left: 845px;
 	margin-top: -40px;
 }
 .footer .q4 svg{
@@ -498,7 +529,7 @@ header .logo{
 	width: 40px;
 	height: 40px;
 	background: rgb(72, 185, 255);
-	margin-left: 1290px;
+	margin-left: 890px;
 	margin-top: -40px;
 }
 .footer .q5 svg{
@@ -513,7 +544,7 @@ header .logo{
 	width: 40px;
 	height: 40px;
 	background: rgb(72, 185, 255);
-	margin-left: 1335px;
+	margin-left: 935px;
 	margin-top: -40px;
 }
 .footer .q6 svg{
@@ -522,4 +553,179 @@ header .logo{
 	width: 15px;
 	padding-top: 12px;
 	color: white;
+}
+
+@media(max-width:1115px){}
+
+
+
+@media(max-width:1089px){
+	.container4 .item{
+	width:43%;
+	margin: 1.45% 3% 1.45% 3%;
+}
+    .container4 .item .qqq{
+    margin-left: 320px;
+	}
+	.p7{
+		display: block;
+		width: 300px;
+		padding-right: 200px;
+		position: relative;
+		margin-left: none;
+	}
+	.p8{
+		display: block;
+		width: 300px;
+		padding-right: 200px;
+		position: relative;
+		margin-left: none;
+	}
+	.p9{
+		display: block;
+		width: 300px;
+		padding-right: 200px;
+		position: relative;
+		margin-left: none;
+	}
+	.q8{
+		margin-left: -70px;
+		width: 500px;
+	}
+	.p1{
+		padding-left: 70px;
+		width: 500px;
+	}
+	.p2{
+		padding-left: 70px;
+		width: 500px;
+	}
+	.p3{
+		padding-left: 70px;
+		width: 500px;
+	}
+	.q6{
+		margin: center;
+		
+		width: 500px;
+		
+	}
+	.p4{
+		padding-left: 150px;
+		width: 250px;
+	}
+	.p5{
+		padding-left: 150px;
+		width:  300px;
+	}
+	.p6{
+		padding-left: 150px;
+		width:  250px;
+	}
+	.q7{
+		margin-left: 250px;
+	}
+}
+@media(max-width:768px){
+	.container4 .item{
+		width:900px;
+		padding-right: 170px;
+	}	
+	.p1{
+		padding-left: 380px;
+	}
+	.p2{
+		padding-left: 380px;
+	}
+	.p3{
+		padding-left: 380px;
+	}
+	.q6{
+		margin-left: 300px;
+	}
+	.q7{
+		margin-right: 50px;
+	}
+	.p4{
+		padding-left: 370px;
+	}
+	.p5{
+		padding-left: 370px;
+	}
+	.p6{
+		padding-left: 370px;
+	}
+	.p7{
+		width: 300px;
+		padding-left: 55px;
+	}
+	.p8{
+		width: 300px;
+		padding-left: 55px;
+	}
+	.p9{
+		width: 300px;
+		padding-left: 55px;
+	}
+	.q8{
+		width: 600px;
+	}
+}
+
+@media(max-width:425px){
+	.container5 {
+		color: #f9f9f9;
+		height: 2100px;
+	}
+	.container5 .line .line2{
+	 display: inline-block; 
+	 float: none;
+	}
+	.container5 .line2{
+	margin-top: 20%;
+
+}
+    .container5 .pic1{
+		margin-top: 80px;
+		width: 100%;
+		min-width: 250px;
+		float: none;
+		width: 100%;
+		background-size: 100%;
+	}
+	#img{
+		width: 360px;
+
+	}
+	.container5 .pic2{
+		margin-top: 5%;
+		float: center;
+		min-width: 250px;
+		padding-left: 360px;
+}
+     .container5 .pic3{
+	    margin-top: 5%;
+		float: none;
+	 }	
+
+	.container5 .pic4{
+	    margin-top: 5%;
+		margin-top: -170px;
+		margin-left: 350px;
+		margin-bottom: 40px;
+	 }
+
+	 .container5 .pic5{
+	    margin-top: 5%;
+		margin-top: -145px;
+		margin-left: 350px;
+	 }
+
+	 .container5 .pic6{
+	    margin-top: 5%;
+		float: none;
+		margin-top: 45px;
+		margin-left: -10px;
+		width: 100%;
+	 }
 }
